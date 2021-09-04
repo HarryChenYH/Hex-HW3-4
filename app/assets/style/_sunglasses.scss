@@ -1,0 +1,137 @@
+.series-glass-list{
+    display: flex;
+    li{
+        display: flex;
+        justify-content: center;
+        width: 370px;
+        padding: 26px 0;
+        border: 1px solid #DCDCDC;
+    }
+    li:hover{
+        border-bottom: 2px solid #AA0601;
+    }
+    img{
+        margin-right: 10px;
+    }
+}
+@media (max-width:768px){
+    .series-glass-list{
+        li{
+            width: 230px;
+            padding: 14px 0;
+        }
+        img{
+            width: 30px;
+            margin-right: 2px;
+        }
+        p{
+            font-size: 24px;
+        }
+    }
+}
+@media (max-width:375px){
+    .series-glass-list{
+        li{
+            width: 115px;
+            padding: 6px 0;
+        }
+        img{
+            width: 16px;
+        }
+        p{
+            font-size: 14px;
+            line-height: 16px;
+        }
+    }
+}
+
+.sunglass-img{
+    display: flex;
+    li{
+        width: 50%;
+        height: 304px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    li:nth-child(1){
+        background-image: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/banner-3.png?raw=true");
+    }
+    li:nth-child(2){
+        background-image: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/product-2-color.png?raw=true");
+    }
+}
+@media (max-width:768px){
+    .sunglass-img{
+        li:nth-child(1){
+            background-image: url(../images/80.png);
+        }
+        li:nth-child(2){
+            background-image: url(../images/15.png);
+        }
+    }
+}
+@media (max-width:768px){
+    .sunglass-img{
+        li{
+            height: 148px;
+        }
+    }
+}
+
+.sunglass-product{
+    padding-top: 80px;
+    padding-bottom: 160px;
+    h2, h3{
+        text-align: center;
+    }
+    .sunglass-content{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-content: stretch;
+    }
+    .sunglass-item{
+        width: 350px;
+        margin-top: 40px;
+    }
+    .sunglass-price{
+        display: flex;
+        justify-content: space-between;
+    }
+    .sunglass-price p:nth-child(2){
+        color: #AA0601;
+    }
+    .sunglass-color{
+        display: flex;
+    }
+    .sunglass-color p{
+        width: 24px;
+        height: 24px;
+    }
+    .sunglass-color a:nth-child(1) p{
+        background-color: #5F3E2D;
+        margin-right: 8px;
+    }
+    .sunglass-color a:nth-child(2) p{
+        background-color: #B75929;
+    }
+}
+@media (max-width:768px){
+    .sunglass-product{
+        padding-top: 56px;
+        padding-bottom: 96px;
+        .sunglass-item{
+            width: 330px;
+        }
+    }
+}
+@media (max-width:375px){
+    .sunglass-product{
+        padding-top: 32px;
+        padding-bottom: 56px;
+        .sunglass-item{
+            width: 345px;
+        }
+    }
+}
