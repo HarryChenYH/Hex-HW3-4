@@ -81,6 +81,14 @@ a {
   font-size: 16px;
   line-height: 24px; }
 
+.fs24-lh36 {
+  font-size: 24px;
+  line-height: 36px; }
+
+.fs32-lh48 {
+  font-size: 32px;
+  line-height: 48px; }
+
 .fs36-lh54 {
   font-size: 36px;
   line-height: 54px; }
@@ -712,5 +720,124 @@ a {
     padding: 8px 0; }
   .contact-list {
     padding-bottom: 40px; } }
+
+.series-glass-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .series-glass-list li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 370px;
+    padding: 26px 0;
+    border: 1px solid #DCDCDC; }
+  .series-glass-list li:hover {
+    border-bottom: 2px solid #AA0601; }
+  .series-glass-list img {
+    margin-right: 10px; }
+
+@media (max-width: 768px) {
+  .series-glass-list li {
+    width: 230px;
+    padding: 14px 0; }
+  .series-glass-list img {
+    width: 30px;
+    margin-right: 2px; }
+  .series-glass-list p {
+    font-size: 24px; } }
+
+@media (max-width: 375px) {
+  .series-glass-list li {
+    width: 115px;
+    padding: 6px 0; }
+  .series-glass-list img {
+    width: 16px; }
+  .series-glass-list p {
+    font-size: 14px;
+    line-height: 16px; } }
+
+.sunglass-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .sunglass-img li {
+    width: 50%;
+    height: 304px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; }
+  .sunglass-img li:nth-child(1) {
+    background-image: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/banner-3.png?raw=true"); }
+  .sunglass-img li:nth-child(2) {
+    background-image: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/product-2-color.png?raw=true"); }
+
+@media (max-width: 768px) {
+  .sunglass-img li:nth-child(1) {
+    background-image: url(../images/80.png); }
+  .sunglass-img li:nth-child(2) {
+    background-image: url(../images/15.png); } }
+
+@media (max-width: 768px) {
+  .sunglass-img li {
+    height: 148px; } }
+
+.sunglass-product {
+  padding-top: 80px;
+  padding-bottom: 160px; }
+  .sunglass-product h2, .sunglass-product h3 {
+    text-align: center; }
+  .sunglass-product .sunglass-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-line-pack: stretch;
+        align-content: stretch; }
+  .sunglass-product .sunglass-item {
+    width: 350px;
+    margin-top: 40px; }
+  .sunglass-product .sunglass-price {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+  .sunglass-product .sunglass-price p:nth-child(2) {
+    color: #AA0601; }
+  .sunglass-product .sunglass-color {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+  .sunglass-product .sunglass-color p {
+    width: 24px;
+    height: 24px; }
+  .sunglass-product .sunglass-color a:nth-child(1) p {
+    background-color: #5F3E2D;
+    margin-right: 8px; }
+  .sunglass-product .sunglass-color a:nth-child(2) p {
+    background-color: #B75929; }
+
+@media (max-width: 768px) {
+  .sunglass-product {
+    padding-top: 56px;
+    padding-bottom: 96px; }
+    .sunglass-product .sunglass-item {
+      width: 330px; } }
+
+@media (max-width: 375px) {
+  .sunglass-product {
+    padding-top: 32px;
+    padding-bottom: 56px; }
+    .sunglass-product .sunglass-item {
+      width: 345px; } }
 
 /*# sourceMappingURL=all.css.map */
